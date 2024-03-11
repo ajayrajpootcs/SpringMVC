@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   
   <!-- Add Spring Web and MVC dependencies -->
-	<dependencies>
+	<!--<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
@@ -17,7 +17,7 @@
 			<artifactId>spring-web</artifactId>
 			<version>4.3.9.RELEASE</version>
 		</dependency>
-		<!-- Servlet -->
+		 Servlet 
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -36,7 +36,28 @@
 			<version>1.2</version>
 		</dependency>
 		
-	</dependencies>
+	</dependencies>-->
+	
+	
+<dependencies>
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-webmvc</artifactId>
+	    <version>6.1.4</version>
+	</dependency>
+	<dependency>
+		<groupId>javax</groupId>
+		<artifactId>javaee-web-api</artifactId>
+		<version>6.0</version>
+		<scope>provided</scope>
+	</dependency>
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>8.0.27</version>
+	</dependency>
+ </dependencies>
+
   
   <build>
     <plugins>
